@@ -56,21 +56,21 @@ You can see the *head* and the *body* is *inside* **HTML**.
 
 Consider each tag as a box. We can put another boxes inside or outside of the box to create document hierarchy.
 
-┌ `<html>`
-├── `<head>`
-├──── `<title>`
-├────── My First HTML Page
-├──── `</title>`
-├── `</head>`
-├── `<body>`
-├──── `<h1>`
-├────── My First HTML Page!
-├──── `</h1>`
-├──── `<div>`
-├────── Yay! I made my first HTML document.
-├──── `</div>`
-├── `<body>`
-└ `<html>`
+┌ `<html>`<br>
+├── `<head>`<br>
+├──── `<title>`<br>
+├────── My First HTML Page<br>
+├──── `</title>`<br>
+├── `</head>`<br>
+├── `<body>`<br>
+├──── `<h1>`<br>
+├────── My First HTML Page!<br>
+├──── `</h1>`<br>
+├──── `<div>`<br>
+├────── Yay! I made my first HTML document.<br>
+├──── `</div>`<br>
+├── `<body>`<br>
+└ `<html>`<br>
 We can now see that `head` and `body` is at the same hierarchy, and `title`, `h1`, and `div` at the same hierarchy!
 
 We call this hierarchy **cascading**.
@@ -85,7 +85,7 @@ If you want the body to be *pink*, CSS will make the `body`, `h1`, and `div` *pi
 But the box in the **inner side** has the **priority**.
 If you want `h1` to be *purple*, CSS will make `h1` *purple*, and `body` and `div` still *pink*.
 
-![example of text styling in MS Word.](./word-css mapping.png)
+![example of text styling in MS Word.](./word-css-mapping.png)
 
 ## JSON: Processing your writing machine-friendly
 
