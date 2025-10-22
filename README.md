@@ -136,35 +136,21 @@ I brought the example of an MS Word document here:
 
 If you check each changed property here, there are:
 
-<table>
-<tr>
-<td>
-
 ![styling properties in MS Word.](./word-css-mapping.png)
 
-</td>
-<td>
-
-- [ ] text-indent
-- [ ] text-color
-- [ ] text-align
-- [ ] text-background-color
-- [ ] text-decoration-line
-- [ ] font-family
-- [ ] font-size
-- [ ] padding
-- [ ] line-height
-
-</td>
-</tr>
-</table>
-
-
-
+- text-indent
+- text-color
+- text-align
+- text-background-color
+- text-decoration-line
+- font-family
+- font-size
+- padding
+- line-height
 
 are the properties changed in this document. And these are the property names of CSS, too!
 
----
+
 
 Let's consider each white dotted box as `<div>`. The CSS of this document should be something like:
 ``` CSS
@@ -213,8 +199,6 @@ Names like `div1`, `div2`, or `div3` will not work in your computer, since it is
 ChatGPT 5 (Plus plan) generated the HTML code in 15 seconds.
 The generated code is in `gpt_generated.html`.
 
----
----
 
 ## Beyond text: links, images, videos, etc.
 To make your writing truly multimodal, you might want to put links to other pages, images, audios or videos! HTML is one of the easiest way to work with them.
