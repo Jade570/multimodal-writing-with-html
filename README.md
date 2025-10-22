@@ -82,7 +82,7 @@ Consider each tag as a box. We can put another boxes inside or outside of the bo
 </td>
 <td>
 
-``` mermaid
+```mermaid
 graph TD
   A["&lt;html&gt;"]
   A --> B["&lt;head&gt;"]
