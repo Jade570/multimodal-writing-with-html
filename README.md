@@ -66,7 +66,6 @@ Consider each tag as a box. We can put another boxes inside or outside of the bo
 │   │   ├── `<h1>` <br>
 │   │   │   └── My First HTML Page! <br>
 │   │   └── `</h1>` <br>
-│   │   |<br>
 │   │   ├── `<div>` <br>
 │   │   │   └── Yay! I made my first HTML document.<br>
 │   │   └── `</div>`<br>
