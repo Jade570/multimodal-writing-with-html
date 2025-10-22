@@ -1,6 +1,20 @@
 # Multimodal Writing with HTML
 This is the guide to make a multimodal writing with HTML.
 
+## Preparation
+- **Code Editor**
+  - [Online HTML editor (W3Schools)](https://www.w3schools.com/html/html_editor.asp) - easy and fast!
+  - [Visual Studio Code](https://code.visualstudio.com/) - free, powerful desktop editor.
+  - You can even use a *plain text editor* like Notepad! Just remember to save files with the `.html` extension.
+
+- **Your writing and multimedia materials**
+  - Text, images, audio, or video files that you want to include.
+
+- **Your favorite LLM AI model!**
+  - I used ChatGPT Plus, but you can use any model that can generate HTML or CSS. Claude, Gemini, Copilot, etc... Just confirm the company’s data-training policy before uploading your content.
+    - Search "[your AI model] turn off data training".
+
+
 
 ## What is HTML?
 HTML is an abbreviation of HyperText Markup Language. It is the basic structure to build a web page.
