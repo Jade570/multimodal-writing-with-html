@@ -132,11 +132,11 @@ h1{
 You can play around with CSS's styling properties to see how the text changes. You can easily adjust your document like how you style your MS Word document!
 
 I brought the example of an MS Word document here:
-![example of text styling in MS Word.](./word.png)
+![example of text styling in MS Word.](./images/word.png)
 
 If you check each changed property here, there are:
 
-![styling properties in MS Word.](./word-css-mapping.png)
+![styling properties in MS Word.](./images/word-css-mapping.png)
 
 - text-indent
 - text-color
