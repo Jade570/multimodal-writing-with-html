@@ -56,23 +56,23 @@ You can see the *head* and the *body* is *inside* **HTML**.
 
 Consider each tag as a box. We can put another boxes inside or outside of the box to create document hierarchy.
 
-┌ <html> <br>
-│   ├── <head> <br>
-│   │   ├── <title> <br>
+┌ `<html>` <br>
+│   ├── `<head>` <br>
+│   │   ├── `<title>` <br>
 │   │   │   └── My First HTML Page <br>
-│   │   └── </title> <br>
-│   └── </head> <br>
+│   │   └── `</title>` <br>
+│   └── `</head>` <br>
 │
-│   ├── <body> <br>
-│   │   ├── <h1> <br>
+│   ├── `<body>` <br>
+│   │   ├── `<h1>` <br>
 │   │   │   └── My First HTML Page! <br>
-│   │   └── </h1> <br>
+│   │   └── `</h1>` <br>
 │   │
-│   │   ├── <div> <br>
+│   │   ├── `<div>` <br>
 │   │   │   └── Yay! I made my first HTML document.<br>
-│   │   └── </div><br>
-│   └── </body><br>
-└ </html><br>
+│   │   └── `</div>`<br>
+│   └── `</body>`<br>
+└ `</html>`<br>
 
 We can now see that `head` and `body` is at the same hierarchy, and `title`, `h1`, and `div` at the same hierarchy!
 
