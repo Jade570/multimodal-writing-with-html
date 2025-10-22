@@ -276,7 +276,23 @@ However, if you want to write it by your own:
     You will see the audio play button that plays `song.mp3` that is located in the same folder of where your html folder is at.
     **Note that `<source>` does not close with `</source>`!**
 
----
+
 ---
 
-## Bibliography
+## Further Reading and Resources
+### W3Schools
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
+- [W3Schools HTML Element Reference](https://www.w3schools.com/tags/) - an exhaustive list of HTML tags.
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+- [W3Schools CSS Reference](https://www.w3schools.com/cssref/index.php) - an exhaustive list of CSS properties.
+### Mozilla Developer Network (MDN)
+- [MDN Core learning modules](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core) - learn about basic web development from scratch.
+- [MDN HTML guides](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN HTML cheatsheet](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet)
+- [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
+- [MDN CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS) - includes some custom/special properties.
+### Miscellaneous
+- [Lorem Ipsum](https://www.lipsum.com/) - a dummy text generator.
+- [CSS cheatsheet](https://devhints.io/css)
+- [coolors](https://coolors.co/) - a color palette generator to explore cool color combinations
