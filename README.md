@@ -126,8 +126,8 @@ h1{
     background-color: purple;
 }
 ```
-1. Before the braces, write the tag name you want to style.
-2. Inside the braces, write the styling property and its value. 
+1. *Before* the braces, write the **tag name** you want to style.
+2. *Inside* the braces, write the **styling property** and its **value**. 
 
 You can play around with CSS's styling properties to see how the text changes. You can easily adjust your document like how you style your MS Word document!
 
@@ -135,7 +135,16 @@ I brought the example of an MS Word document here:
 ![example of text styling in MS Word.](./word.png)
 
 If you check each changed property here, there are:
+
+<table>
+<tr>
+<td>
+
 ![styling properties in MS Word.](./word-css-mapping.png)
+
+</td>
+<td>
+
 - [ ] text-indent
 - [ ] text-color
 - [ ] text-align
@@ -146,7 +155,16 @@ If you check each changed property here, there are:
 - [ ] padding
 - [ ] line-height
 
+</td>
+</tr>
+</table>
+
+
+
+
 are the properties changed in this document. And these are the property names of CSS, too!
+
+---
 
 Let's consider each white dotted box as `<div>`. The CSS of this document should be something like:
 ``` CSS
@@ -195,10 +213,14 @@ Names like `div1`, `div2`, or `div3` will not work in your computer, since it is
 ChatGPT 5 (Plus plan) generated the HTML code in 15 seconds.
 The generated code is in `gpt_generated.html`.
 
+---
+---
+
 ## Beyond text: links, images, videos, etc.
 To make your writing truly multimodal, you might want to put links to other pages, images, audios or videos! HTML is one of the easiest way to work with them.
 With `<a>`, `<img>`, `<audio>` and `<video>` tags, we can add links, images, audios, and videos in our document!
-### PATH: How to guide the machine where your medium is at
+
+- ### PATH: How to guide the machine where your medium is at
 However, you need to tell the AI where that file is.
 
 You might let AI to find their path, too...
@@ -207,26 +229,37 @@ But that means you are giving a permission to the AI company to surveil your com
 You might not want that.
 
 It's okay, it is easy:
-1. If the content is in the internet: type in the url.
-2. If the content is **NOT** in the internet:
-   1. *Relative* path
-        - Think from the html file's view. Where is the file located?
-        - To tell the computer that the file is in the same folder(directory), we use `.`. If the file is in the parent folder, we use `..`. And if we are to divide folders and files, we use `/`. 
-        -  Let's say we want to find `image.jpg` in the same folder. `image.jpg` or `./image.jpg`.
-        -  What if it is inside the `media` folder? `./media/image.jpg`.
-        -  If the `image.jpg` is outside the folder, you need to write `..`before the name. `../image.jpg`.
-        -  If the `image.jpg` is outside the folder of the outside of the html folder: `../../image.jpg`. 
-   2. *Absolute* path
+1. ### If the content is in the internet: type in the **url**.
+2. ### If the content is **NOT** in the internet:
+   1. ### *Relative* path
+        - Think from the **html file's view**. Where is the file located?
+        - To tell the computer that the **file is in the same folder(directory)**, we use `.`.
+        - If the **file is in the parent folder**, we use `..`.
+        - And if **we are to divide folders and files**, we use `/`.
+        ---
+        -  Let's say we want to find `image.jpg` in the **same folder**.
+           -  `image.jpg` or `./image.jpg`.
+        -  What if it is **inside the `media` folder**?
+           -  `./media/image.jpg`.
+        -  If the `image.jpg` is **outside the folder**,
+           -  you need to write `..`before the name.
+           -  `../image.jpg`.
+        -  If the `image.jpg` is **outside the folder of the outside of the html folder**:
+           -  `../../image.jpg`. 
+   ---
+   2. ### *Absolute* path
         - Think from the computer's view. Where is the file located?
         - Usually, if you click the file with `Finder (Mac)` or `File Explorer (Windows)`, you will get a long address. They are from the root of your computer! You can access this file from anywhere in your computer. 
-
-#### ! Tips for less stressful file works
+---
+- #### ! Tips for less stressful file works
  1. File name that has space or character other than English, put quotation mark (`"`) around the path. `"image I like.jpg"`
       - Try to avoid using space! instead, use something like `-` or `_`. You can also use CapitalLetters.
       - The machine thinks `image.jpg` and `Image.jpg` as different things. Double check if you got the capital letters correct!
  2. If you are putting numbers in the media, try to use the same digit. ex: 01, 02, ... if your number ends with 2 digits. 001, 002,... if your number ends with 3 digits.
 
-### Linking multimedia to your HTML
+<br>
+
+- ### Linking multimedia to your HTML
 Write a prompt to AI with the correct path and it will generate a code for you!
 However, if you want to write it by your own:
 1. `<a>` tag uses `href`.
@@ -244,6 +277,8 @@ However, if you want to write it by your own:
     ```
     You will see the audio play button that plays `song.mp3` that is located in the same folder of where your html folder is at.
     **Note that `<source>` does not close with `</source>`!**
+
+---
 ---
 
 ## Bibliography
