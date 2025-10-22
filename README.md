@@ -20,7 +20,7 @@ This is the guide to make a multimodal writing with HTML.
 HTML is an abbreviation of HyperText Markup Language. It is the basic structure to build a web page.
 
 - ### Structure of HTML
-HTML uses **tag** to structure the content.
+HTML uses **tag**s to structure the content.
 **tag** is something that looks like `<html>`.
 
 You just *opened* the `<html>` tag. 
@@ -34,7 +34,7 @@ These are the tags you will probably see in the future.
 |Tag Name|Description|
 |--------|-----------|
 |`<html>`|You tell the machine this is an HTML document.|
-|`<head>`| The head of the HTML document. It can include meta-data of the document, stuffs that are shown in your browser tab, or any other information of the document.|
+|`<head>`| The head of the HTML document. It can include meta-data of the document, stuff that is shown in your browser tab, or any other information of the document.|
 |`<body>`| The body of the HTML document. What you actually see in the browser!|
 |--------|Tags inside  `<head>`|
 |`<title>`| The text you see in your browser tab|
@@ -63,6 +63,8 @@ This is how the basic HTML looks like.
     </body>
 </html>
 ```
+* You should normally include a `<!DOCTYPE>` declaration and a `<meta charset="utf-8">` tag to make the HTML work properly, but let’s skip them here since we’ll use AI for code generation.
+  
 You can see `<html> </html>` tag, `<head> </head>` tag, and `<body> </body>` tag.
 You can see the *head* and the *body* is *inside* **HTML**.
 *Inside* the **head**, you can see *title*.
@@ -121,7 +123,7 @@ graph TD
 We can now see that `head` and `body` is at the same hierarchy, and `title`, `h1`, and `div` at the same hierarchy!
 
 Now, we want to style these boxes.
-We call this specific styling guide of HTML as **CSS (Cascading Style Sheet)**. 
+We call this specific styling guide of HTML as **CSS (Cascading Style Sheets)**. 
 
 
 - ### Style guide: Mapping to basic MS Word
@@ -291,7 +293,7 @@ However, if you want to write it by your own:
 - [MDN HTML cheatsheet](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet)
 - [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
 - [MDN CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [MDN CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS) - includes some custom/special properties.
+- [MDN CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Properties) - includes some custom/special properties.
 ### Miscellaneous
 - [Lorem Ipsum](https://www.lipsum.com/) - a dummy text generator.
 - [CSS cheatsheet](https://devhints.io/css)
