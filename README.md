@@ -56,21 +56,53 @@ You can see the *head* and the *body* is *inside* **HTML**.
 
 Consider each tag as a box. We can put another boxes inside or outside of the box to create document hierarchy.
 
-┌ `<html>` <br>
-│       ├── `<head>` <br>
-│       │       ├── `<title>` <br>
-│       │       │       └── My First HTML Page <br>
-│       │       └── `</title>` <br>
-│       └── `</head>` <br>
-│       ├── `<body>` <br>
-│       │       ├── `<h1>` <br>
-│       │       │       └── My First HTML Page! <br>
-│       │       └── `</h1>` <br>
-│       │       ├── `<div>` <br>
-│       │       │       └── Yay! I made my first HTML document.<br>
-│       │       └── `</div>`<br>
-│       └── `</body>`<br>
-└ `</html>`<br>
+
+<table>
+<tr>
+<td>
+
+```
+┌ <html>
+│   ├── <head>
+│   │   ├── <title>
+│   │   │   └── My First HTML Page
+│   │   └── </title>
+│   └── </head>
+│   ├── <body>
+│   │   ├── <h1>
+│   │   │   └── My First HTML Page!
+│   │   └── </h1>
+│   │   ├── <div>
+│   │   │   └── Yay! I made my first HTML document.
+│   │   └── </div>
+│   └── </body>
+└ </html>
+```
+
+</td>
+<td>
+
+``` mermaid
+graph TD
+  A["&lt;html&gt;"]
+  A --> B["&lt;head&gt;"]
+  B --> C["&lt;title&gt;"]
+  C --> C1["My First HTML Page"]
+  A --> D["&lt;body&gt;"]
+  D --> E["&lt;h1&gt;"]
+  E --> E1["My First HTML Page!"]
+  D --> F["&lt;div&gt;"]
+  F --> F1["Yay! I made my first HTML document."]
+```
+
+</td>
+</tr>
+</table>
+
+
+
+
+
 
 We can now see that `head` and `body` is at the same hierarchy, and `title`, `h1`, and `div` at the same hierarchy!
 
@@ -113,6 +145,7 @@ If you check each changed property here, there are:
 - [ ] font-size
 - [ ] padding
 - [ ] line-height
+
 are the properties changed in this document. And these are the property names of CSS, too!
 
 Let's consider each white dotted box as `<div>`. The CSS of this document should be something like:
