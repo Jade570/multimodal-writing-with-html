@@ -62,12 +62,11 @@ Consider each tag as a box. We can put another boxes inside or outside of the bo
 │   │   │   └── My First HTML Page <br>
 │   │   └── `</title>` <br>
 │   └── `</head>` <br>
-│<br>
 │   ├── `<body>` <br>
 │   │   ├── `<h1>` <br>
 │   │   │   └── My First HTML Page! <br>
 │   │   └── `</h1>` <br>
-│   ││<br>
+│   │   |<br>
 │   │   ├── `<div>` <br>
 │   │   │   └── Yay! I made my first HTML document.<br>
 │   │   └── `</div>`<br>
